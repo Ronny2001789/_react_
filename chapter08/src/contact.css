@@ -1,0 +1,59 @@
+.contact-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.phone-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.phone-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 12px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.phone-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.phone-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.phone-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.phone-card p {
+  font-weight: bold;
+  color: green;
+  margin-bottom: 10px;
+}
+
+/* Buy Now Button */
+.buy-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #0056b3;
+}

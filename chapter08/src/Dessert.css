@@ -1,0 +1,70 @@
+/* Dessert.css */
+
+.table-container {
+  margin: 60px auto;
+  width: 95%;
+  max-width: 1100px;
+  background: #0f0f1a;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.2), 0 0 15px #8e24aa inset;
+  font-family: 'Orbitron', sans-serif;
+  border: 2px solid #00e5ff;
+  transform: perspective(1000px) rotateX(1deg);
+}
+
+.MuiTableHead-root {
+  background: linear-gradient(to right, #00e5ff, #6200ea);
+  text-transform: uppercase;
+  border-bottom: 2px solid #00e5ff;
+}
+
+.MuiTableCell-head {
+  color: #ffffff !important;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px #00ffff;
+  padding: 16px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.MuiTableCell-root {
+  font-size: 15px;
+  padding: 14px;
+  color: #c3faff;
+  background: rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid #263238;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.MuiTableRow-root:hover {
+  background: rgba(0, 255, 255, 0.1);
+  transform: scale(1.01);
+  box-shadow: inset 0 0 10px #00e5ff, 0 0 8px #6200ea;
+  cursor: crosshair;
+}
+
+.MuiTableRow-root:hover .MuiTableCell-root {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 0 0 3px #ff4081;
+}
+
+/* Column neon effects */
+.MuiTableCell-root:nth-child(2) {
+  color: #ff5252;
+}
+
+.MuiTableCell-root:nth-child(3) {
+  color: #00ffab;
+}
+
+.MuiTableCell-root:nth-child(4) {
+  color: #40c4ff;
+}
+
+.MuiTableCell-root:nth-child(5) {
+  color: #b388ff;
+  text-shadow: 0 0 5px #b388ff;
+}
